@@ -7,7 +7,7 @@
         body {
             text-align: center;
             color: #ffffff;
-            background: linear-gradient(to right, #ff0000, #cc0000);
+            background-color: blue; /* changed here */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
@@ -15,9 +15,14 @@
 
         h1 {
             font-size: 40px;
-            margin-bottom: 20px;
+            margin: 20px auto;
             color: #ffeb3b;
             text-shadow: 2px 2px 5px black;
+            border: 2px solid white;
+            width: 350px;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
         }
 
         p {
@@ -67,11 +72,6 @@
 
     <p>
         Hello! My name is Manohar Reddy. I am learning HTML and creating my first simple webpage.
-        This is a small paragraph about me. I am a motivated and curious individual who enjoys
-        learning new things and improving my skills every day. I have a strong interest in
-        technology and creativity, and I like exploring different ideas to grow both personally
-        and professionally. I believe in hard work, consistency, and always staying positive
-        while facing challenges.
     </p>
 
     <button type="button" onclick="showUserInfo()">
@@ -81,7 +81,9 @@
     <p id="demo"></p>
 
     <p>
-        <a href="../assignment/home.html">Return to home page</a>
+        <a href="https://github.com/manoharreddyms07-creator/sem4-fet" target="_blank">
+            Return to home page
+        </a>
     </p>
 
 </body>
